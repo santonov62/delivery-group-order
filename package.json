@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start-dev": "cd backend && npm run dev",
+    "start-dev": "cd backend && npm run start-dev",
     "postinstall": "cd backend && npm install && npm run start"
   },
   "repository": {
