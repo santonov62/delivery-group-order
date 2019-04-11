@@ -1,0 +1,18 @@
+{
+  "name": "delivery-group-order",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "cd backend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santonov62/delivery-group-order.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santonov62/delivery-group-order/issues"
+  },
+  "homepage": "https://github.com/santonov62/delivery-group-order#readme"
+}
