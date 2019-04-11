@@ -1,5 +1,6 @@
 body {
     min-height: 50px;
+    min-width: 300px;
 }
 
 #orders ul {
@@ -18,17 +19,18 @@ body {
 .loader,
 .loader:before,
 .loader:after {
-    background: #000;
+    background: #464141;
     -webkit-animation: load1 1s infinite ease-in-out;
     animation: load1 1s infinite ease-in-out;
     width: 1em;
     height: 2em;
 }
 .loader {
-    color: #000;
+    color: #464141;
     text-indent: -9999em;
-    margin: 40px auto;
-    position: relative;
+    /*margin: 40px auto;*/
+    position: absolute;
+    left: 50%;
     font-size: 11px;
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
