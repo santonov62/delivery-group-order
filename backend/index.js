@@ -4,15 +4,23 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 const data = [{
-    name: "1111111111",
+    address: "Рязань, улица Гоголя, 16",
+    shop: {
+        name: "Шашлычный дворик"
+    },
     product_id: 304117807,
     quantity: 1,
-    s_id: 28451
+    s_id: 28451,
+    url: "https://ryazan.delivery-club.ru/srv/Shashlychnyj_dvorik_rzn/#projezd_Jablochkova8B/"
 }, {
-    name: "2222222222",
-    product_id: 303576260,
+    address: "Рязань, улица Гоголя, 16",
+    shop: {
+        name: "Шашлычный дворик"
+    },
+    product_id: 304117807,
     quantity: 1,
-    s_id: 28451
+    s_id: 28451,
+    url: "https://ryazan.delivery-club.ru/srv/Shashlychnyj_dvorik_rzn/#projezd_Jablochkova8B/"
 }];
 
 app.get('/', function (req, res) {
